@@ -4,7 +4,7 @@ import { InterfaceCRUD } from './InterfaceCRUD'
 import { GeneralException } from '../exception/GeneralException'
 import { InterfaceQuery } from './InterfaceQuery'
 
-export class GeneralRepository implements InterfaceCRUD<Document> {
+export class CoreRepository implements InterfaceCRUD<Document> {
     private model: Model<Document>
 
     constructor(model: Model<Document>) {
